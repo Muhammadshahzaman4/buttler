@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zestwear product details" />
+  <title>Zestwear — Product</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="checkout.css" />
+  <link rel="stylesheet" href="product.css" />
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><a class="logo" href="index.html">Z<span>e</span>stwear</a><nav class="desktop-nav"><a href="index.html#shop">Shop</a><a href="index.html#new">New Arrivals</a><a href="index.html#women">Women</a><a href="index.html#men">Men</a><a href="index.html#sale">Sale</a></nav><div class="nav-actions"><a class="nav-icon" href="index.html#shop" aria-label="Back to shop">←</a><button class="cart-btn" aria-label="Cart">🛒 <b>0</b></button></div></div></header>
+  <main class="product-page"><div class="container"><div id="product-loading" class="product-loading"><span>Loading product…</span></div><div id="product-error" class="product-error" hidden><h1>Product not found</h1><p>Open this page from a product on the Zestwear shop.</p><a class="btn btn-dark" href="index.html#shop">Back to shop →</a></div><section id="product-detail" class="product-detail" hidden></section></div></main>
+  <script src="shopify.js"></script>
+  <script src="script.js"></script>
+  <script src="product.js"></script>
+</body>
+</html>
