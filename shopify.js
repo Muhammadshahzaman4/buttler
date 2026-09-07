@@ -1,9 +1,9 @@
 // Zestwear Shopify Storefront API configuration.
 // Storefront API supports public product reads without exposing an Admin API secret.
 const SHOPIFY_STORE_DOMAIN = 'zestwearstore.myshopify.com';
-// Paste a Storefront API public access token here if your shop requires one.
+// Paste your Storefront API public access token here.
 // Never put a Shopify Admin API access token in frontend code.
-const SHOPIFY_STOREFRONT_TOKEN = '';
+const SHOPIFY_STOREFRONT_TOKEN = 'YOUR_STOREFRONT_API_TOKEN_HERE';
 const SHOPIFY_API_VERSION = '2026-01';
 const SHOPIFY_ENDPOINT = `https://${SHOPIFY_STORE_DOMAIN}/api/${SHOPIFY_API_VERSION}/graphql.json`;
 
